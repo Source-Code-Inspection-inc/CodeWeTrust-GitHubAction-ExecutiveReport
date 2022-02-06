@@ -1,3 +1,4 @@
+# TODO example https://github.com/SonarSource/sonarcloud-github-action
 name: CodeWeTrust Executive Report Generator
 description: Scan your code with CodeWeTrust analyzer and generate an executive report in PowerPoint format
 author: Source Code Inspection Inc.
