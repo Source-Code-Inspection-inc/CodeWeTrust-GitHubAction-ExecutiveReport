@@ -1,7 +1,18 @@
 name: CodeWeTrust Executive Report Generator
-description: Runs CodeWeTrust code analyzer and generates an executive report in PowerPoint format
+description: Scan your code with CodeWeTrust analyzer and generate an executive report in PowerPoint format
 author: Source Code Inspection Inc.
+branding:
+  icon: check
+  color: green
 runs:
   using: docker
   image: Dockerfile
-
+inputs:
+  path:
+    description: Path to analyze.
+    required: false
+    default: .
+  licenseKey:
+    description: CodeWeTrust license key.
+    required: false
+    default: TODO-set-license-key-that-results-in-two-page-report
