@@ -1,0 +1,7 @@
+name: CodeWeTrust Executive Report Generator
+description: Runs CodeWeTrust code analyzer and generates an executive report in PowerPoint format
+author: Source Code Inspection Inc.
+runs:
+  using: docker
+  image: Dockerfile
+
