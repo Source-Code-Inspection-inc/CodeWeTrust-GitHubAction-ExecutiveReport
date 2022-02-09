@@ -9,6 +9,9 @@ runs:
   using: docker
   image: Dockerfile
 inputs:
+  args:
+    description: Additional arguments to the CodeWeTrust scanner
+    required: false
   path:
     description: Path to analyze.
     required: false
