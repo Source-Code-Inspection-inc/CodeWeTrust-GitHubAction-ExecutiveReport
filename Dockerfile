@@ -6,7 +6,9 @@ RUN apk add --no-cache \
         icu-libs \
         git
 
-WORKDIR /
+ENV PATH=${PATH}:/opt
+
+WORKDIR /opt
 
 # https://help.github.com/en/actions/creating-actions/dockerfile-support-for-github-actions#user
 USER root
