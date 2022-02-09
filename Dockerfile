@@ -8,7 +8,7 @@ WORKDIR /opt
 USER root
 
 # Install CodeWeTrust
-RUN wget https://codewetrust-dist.s3-us-west-2.amazonaws.com/CodeWeTrustRunner_linux.tar.gz && tar -xzf CodeWeTrustRunner_linux.tar.gz
+RUN wget https://codewetrust-dist-staging.s3-us-west-2.amazonaws.com/CodeWeTrustRunner_linux.tar.gz && tar -xzf CodeWeTrustRunner_linux.tar.gz
 
 # Prepare entrypoint
 COPY entrypoint.sh /entrypoint.sh
