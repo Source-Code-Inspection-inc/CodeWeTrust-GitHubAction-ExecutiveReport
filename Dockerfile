@@ -1,10 +1,4 @@
-ARG REPO=mcr.microsoft.com/dotnet/aspnet
-FROM $REPO:6.0.2-alpine3.14-amd64
-
-RUN apk add --no-cache \
-        curl \
-        icu-libs \
-        git
+FROM mcr.microsoft.com/dotnet/sdk:6.0
 
 ENV PATH=${PATH}:/opt
 
