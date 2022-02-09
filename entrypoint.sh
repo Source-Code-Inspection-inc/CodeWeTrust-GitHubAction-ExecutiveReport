@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 
-CodeWeTrustRunner ${INPUT_PATH} --product-name ${{ github.event.repository.name }} --PipelineSettings:LicenseKey ${INPUT_LICENSEKEY} ${INPUT_ARGS}
+CodeWeTrustRunner ${INPUT_PATH} --product-name ${GITHUB_REPOSITORY} --PipelineSettings:LicenseKey ${INPUT_LICENSEKEY} ${INPUT_ARGS}
