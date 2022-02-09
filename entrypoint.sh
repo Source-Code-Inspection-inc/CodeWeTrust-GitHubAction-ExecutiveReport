@@ -19,4 +19,5 @@ CodeWeTrustRunner ${INPUT_PATH} \
                   --product-name ${GITHUB_REPOSITORY} \
                   --PipelineSettings:LicenseKey ${INPUT_LICENSEKEY} \
                   --PipelineSettings:WriteExecutiveReport true \
+                  --PipelineSettings:OutPath ${INPUT_PATH} \
                   ${INPUT_ARGS}
