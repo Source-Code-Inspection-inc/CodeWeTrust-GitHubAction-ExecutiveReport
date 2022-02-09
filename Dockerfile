@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0
 
 ENV PATH=${PATH}:/opt
+ENV CODE_WE_TRUST_MODE DOCKER_CONSOLE
 
 WORKDIR /opt
 
