@@ -12,10 +12,9 @@ inputs:
     description: Additional arguments to the CodeWeTrust scanner
     required: false
   path:
-    description: Path to analyze.
+    description: Path to analyze
     required: false
     default: .
   licenseKey:
-    description: CodeWeTrust license key.
-    required: false
-    default: TODO-set-license-key-that-results-in-two-page-report
+    description: CodeWeTrust license key
+    required: true
