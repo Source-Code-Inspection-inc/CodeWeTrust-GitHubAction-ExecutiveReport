@@ -12,6 +12,11 @@ RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
 
 ENV LANG en_US.UTF-8
 
+# Install Git
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y git
+
 # Node (required by sonar scanner)
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash && apt install -y nodejs
 
