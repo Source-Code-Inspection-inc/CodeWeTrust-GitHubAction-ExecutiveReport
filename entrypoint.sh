@@ -2,4 +2,4 @@
 
 set -e
 
-./CodeWeTrustRunner ${INPUT_PATH} --product-name "TODO_HOW_TO_GET_REPO_NAME" --PipelineSettings:LicenseKey ${INPUT_LICENSEKEY} ${INPUT_ARGS}
+./CodeWeTrustRunner ${INPUT_PATH} --product-name ${{ github.event.repository.name }} --PipelineSettings:LicenseKey ${INPUT_LICENSEKEY} ${INPUT_ARGS}
