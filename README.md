@@ -57,3 +57,5 @@ jobs:
 
 3. Go to **Actions** pane in your GitHub repository and trigger the workflow.
 4. Get Executive Report from action run artifacts. 
+
+![CodeWeTrust Action Result!](CodeWeTrust_action_result.png)
