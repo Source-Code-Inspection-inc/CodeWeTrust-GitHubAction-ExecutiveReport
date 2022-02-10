@@ -1,6 +1,6 @@
 # Scan your code with CodeWeTrust
 
-Perform source code analysis with [CodeWeTrust](https://codewetrust.com) scanner and generate Executive Report in pptx format.
+Perform source code analysis with [CodeWeTrust scanner](https://codewetrust.com) and generate an Executive Report in pptx format.
 
 ![CodeWeTrust Header!](CodeWeTrust_header.png)
 
@@ -17,6 +17,8 @@ It performs multi-stage code analysis and provides an aggregated report:
 * Business Risks
 
 All popular programming languages are supported (JavaScript, Python, Java, C#, C++, Rust, Go, etc).
+
+Report sample: [ExecutiveReportSample.pptx](TODO).
 
 ## Requirements
 
