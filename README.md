@@ -1,6 +1,8 @@
-# CodeWeTrust Executive Report Generator
+# Scan your code with CodeWeTrust
 
-Performs source code analysis and generates PowerPoint executive report.
+Perform source code analysis with [CodeWeTrust](https://codewetrust.com) scanner and generate Executive Report in pptx format.
+
+![CodeWeTrust Header!](CodeWeTrust_header.png)
 
 ### Usage Example
 
