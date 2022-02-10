@@ -18,7 +18,7 @@ It performs multi-stage code analysis and provides an aggregated report:
 
 All popular programming languages are supported (JavaScript, Python, Java, C#, C++, Rust, Go, etc).
 
-Report sample: [ExecutiveReportSample.pptx](https://github.com/Source-Code-Inspection-inc/CodeWeTrust-GitHubAction-ExecutiveReport/raw/master/ExecutiveReportSample.pptx).
+Report sample: [ExecutiveReportSample.pptx](https://github.com/Source-Code-Inspection-inc/CodeWeTrust-GitHubAction-ExecutiveReport/raw/main/ExecutiveReportSample.pptx).
 See more samples at [codewetrust.com/test-cases](https://www.codewetrust.com/test-cases). 
 
 ## Requirements
