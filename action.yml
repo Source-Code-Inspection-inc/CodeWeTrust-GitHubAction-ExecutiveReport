@@ -1,4 +1,4 @@
-name: CodeWeTrust Executive Report Generator
+name: Automated Source Code Quality Assessment - Executive Report Generator
 description: Scan your code with CodeWeTrust analyzer and generate an executive report in PowerPoint format
 author: Source Code Inspection Inc.
 branding:
