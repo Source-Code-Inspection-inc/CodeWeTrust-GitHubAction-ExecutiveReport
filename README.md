@@ -4,7 +4,29 @@ Perform source code analysis with [CodeWeTrust](https://codewetrust.com) scanner
 
 ![CodeWeTrust Header!](CodeWeTrust_header.png)
 
-### Usage Example
+CodeWeTrust provides an innovative solution to evaluate and analyze software products.
+
+It performs multi-stage code analysis and provides an aggregated report:
+
+* Tech Stack
+* Code Risks
+* Static Code Analysis
+* Security Review
+* License Compliance
+* Contributors Overview
+* Business Risks
+
+All popular programming languages are supported (JavaScript, Python, Java, C#, C++, Rust, Go, etc).
+
+## Requirements
+
+* A CodeWeTrust account - sign up for free on [codewetrust.com](https://codewetrust.com)
+
+## Usage Example
+
+1. Obtain your CodeWeTrust license key. **Keep it secret - don't commit to Git**. Store it in **GitHub Settings -> Secrets -> Actions**.
+
+2. Set up a GitHub workflow - a yaml file in `.github/workflows` directory in the root of your repository.
 
 ```yaml
 name: Run CodeWeTrust Executive Report
@@ -32,3 +54,6 @@ jobs:
         name: Reports
         path: ExecutiveReport.pptx
 ```
+
+3. Go to **Actions** pane in your GitHub repository and trigger the workflow.
+4. Get Executive Report from action run artifacts. 
